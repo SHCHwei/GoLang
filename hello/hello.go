@@ -21,7 +21,7 @@ func main(){
     for index:= 0; index < 2 ; index++ {
         message, err := greetings.Hello(arr[index])
             if err != nil {
-                log.Fatal("stop!")
+                log.Fatal(err)
             }
         	sayHello(message)
     }

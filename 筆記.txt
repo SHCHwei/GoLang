@@ -1,3 +1,9 @@
 go mod init [path]  套件初始化  
 go mod edit [編輯內容]  go.mod文件編寫，該文件是紀錄相依套件 
 go mod tidy 套件檢查
+
+如果寫完code 直接直接執行 run
+如果套件寫完 請執行 go mod init
+
+run 執行後 程式沒有問題
+可以執行 go build 建立執行檔案

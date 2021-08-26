@@ -1,0 +1,3 @@
+go mod init [path]  套件初始化  
+go mod edit [編輯內容]  go.mod文件編寫，該文件是紀錄相依套件 
+go mod tidy 套件檢查

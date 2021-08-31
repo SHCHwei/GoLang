@@ -7,3 +7,7 @@ go mod tidy 套件檢查
 
 run 執行後 程式沒有問題
 可以執行 go build 建立執行檔案
+
+
+
+
